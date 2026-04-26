@@ -1,0 +1,15 @@
+steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+
+      # DELETE THE NPM INSTALL AND BUILD STEPS
+      # JUST KEEP THE UPLOAD STEP BELOW
+      
+      - name: Upload artifact for deployment job
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: .

@@ -1,0 +1,5 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/45168717-7be1-4c52-84b1-6ed69326f5a1/resourceGroups/practice/providers/Microsoft.Web/sites/appraza028",
+    "appService.deploySubpath": ".",
+    "liveServer.settings.port": 5501
+}
